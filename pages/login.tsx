@@ -10,7 +10,7 @@ function Login() {
         <link rel="icon" href="/icons8-spotify.svg" />
       </Head>
     <h1 className='text-6xl'>This is {' '}
-        <a className='hover:text-green-600'>
+        <a className='hover:text-green-600 font-mono'>
             Login Page
         </a>
     </h1>
