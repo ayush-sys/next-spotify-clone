@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Sidebar from '../components/Sidebar';
-
+import Center from '../components/Center';
 
 export default function Home() {
   return (
@@ -10,11 +10,12 @@ export default function Home() {
         <link rel="icon" href="/icons8-spotify.svg" />
       </Head>
 
-      <main className="">
+      <main className="flex">
         {/* Sidebar */}
         <Sidebar/>
 
         {/* Center */}
+        <Center/>
       </main>
 
       <div>
