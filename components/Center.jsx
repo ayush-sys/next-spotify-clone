@@ -46,7 +46,7 @@ export default function Center() {
 
     
 
-    return <div className="flex-grow">
+    return <div className="flex-grow h-screen overflow-y-scroll scrollbar-hide">
         {/* User profile */}
         <header className="absolute top-5 right-8">    
             <div className="flex items-center bg-gray-300 space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-r">
@@ -66,6 +66,7 @@ export default function Center() {
             </div>
         </section>
 
+        {/* Songs section */}
         <div>
             <Songs/>
         </div>

@@ -31,6 +31,7 @@ function Sidebar() {
                         <LogoutIcon className='h-5 w-5'/>
                         <p>LogOut</p>
                     </button>
+                    <hr className='border-t-[0.1px] border-gray-800'/>
                     <button className='flex items-center space-x-2 hover:text-white'>
                         <HomeIcon className='h-5 w-5'/>
                         <p>Home</p>
@@ -43,7 +44,7 @@ function Sidebar() {
                         <LibraryIcon className='h-5 w-5'/>
                         <p>Library</p>
                     </button>
-                    <hr className='border-t-[0.1px] border-gray-900'/>
+                    <hr className='border-t-[0.1px] border-gray-800'/>
 
 
                     {/* 2nd Section */}
@@ -59,7 +60,7 @@ function Sidebar() {
                         <RssIcon className='h-5 w-5'/>
                         <p>Your episode</p>
                     </button>
-                    <hr className='border-t-[0.1px] border-gray-900'/>
+                    <hr className='border-t-[0.1px] border-gray-800'/>
 
 
                     {/* Render Playlist */}
