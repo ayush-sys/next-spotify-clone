@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import {HomeIcon, SearchIcon, LibraryIcon, PlusCircleIcon, RssIcon, HeartIcon, LogoutIcon} from '@heroicons/react/outline';
 import {signOut, useSession} from 'next-auth/react'
 import useSpotify from "../hooks/useSpotify";
 import { useRecoilState } from 'recoil';
 import { playlistIdState } from "../atoms/playlistAtoms";
+import {HomeIcon, SearchIcon, LibraryIcon, PlusCircleIcon, RssIcon, HeartIcon, LogoutIcon} from '@heroicons/react/outline';
 
 
 function Sidebar() {

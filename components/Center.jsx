@@ -2,9 +2,9 @@ import {shuffle} from "lodash";
 import { useSession } from "next-auth/react";
 import useSpotify from "../hooks/useSpotify";
 import { useEffect, useState } from "react";
+import Songs from "./Songs";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { playlistIdState, playlistState } from "../atoms/playlistAtoms";
-import Songs from "./Songs";
 import {FaUserNinja} from "react-icons/fa";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 
