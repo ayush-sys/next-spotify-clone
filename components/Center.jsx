@@ -51,7 +51,6 @@ export default function Center() {
         <header className="absolute top-5 right-8">    
             <div className="flex items-center bg-gray-300 space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-r">
                 <FaUserNinja className="rounded-full w-8 h-8"/>
-                {/* <img src={session?.user.image} alt="spotify-user-avatar"/> */}
                 <h2> {session?.user.name} </h2>
                 <ChevronDownIcon className="h-5 w-5"/>
             </div>
