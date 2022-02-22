@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import {HomeIcon, SearchIcon, LibraryIcon, PlusCircleIcon, RssIcon, HeartIcon, LogoutIcon} from '@heroicons/react/outline';
 import {signOut, useSession} from 'next-auth/react'
 import useSpotify from "../hooks/useSpotify";
 import { useRecoilState } from 'recoil';
 import { playlistIdState } from "../atoms/playlistAtoms";
+import {HomeIcon, SearchIcon, LibraryIcon, PlusCircleIcon, RssIcon, HeartIcon, LogoutIcon} from '@heroicons/react/outline';
 
 
 function Sidebar() {
@@ -24,7 +24,7 @@ function Sidebar() {
 
 
       return (
-            <div className='text-gray-500 p-5 text-xs lg:text-sm border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex'>
+            <div className='text-gray-500 p-5 text-xs lg:text-sm border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex pb-36'>
                 <div className='space-y-4'>
                     {/* 1st section */}
                     <button className='flex items-center space-x-2 hover:text-white' onClick={() => signOut()}>
